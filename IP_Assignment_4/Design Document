@@ -1,0 +1,4 @@
+The design of my Assignment 4 closely follows the bottle_server2 and report_using_rest1 in the in class projects for
+02/26. I was able to successfully get my report to display the area_id, name, and number of locations, but not the avg
+measurements. I used my db_utility functions and db_access functions from Assignment 2 to construct the server functions,
+and from there the report is almost the same as the report_using_rest1 from class on 02/26.

@@ -1,0 +1,58 @@
+/* */
+
+html {
+    background-color: aquamarine;
+}
+
+body {
+    background-color: skyblue;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: groove;
+    border-width: 4px;
+    padding: 15px;
+}
+
+th {
+    background-color: #ccc;
+}
+
+th.narrow {
+    background-color: #ccc;
+    width: 5em;
+    text-align: left;
+}
+
+th.wide {
+    width: 10em;
+    background-color: #ccc;
+    text-align: left;
+}
+
+.numeric {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+div.data-grid {
+    display: table;
+}
+
+div.data-grid > div {
+    display: table-row;
+}
+
+div.data-grid > div > span {
+    display: table-cell;
+}
+
+table.grid, table.grid th, table.grid td {
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 3px;
+    padding: 5px;
+}
+

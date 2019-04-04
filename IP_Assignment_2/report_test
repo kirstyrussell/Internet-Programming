@@ -1,0 +1,7 @@
+select * from category where category_id in (select category_id from category_area where area_id == 7);
+
+select * from measurement where measurement_id = 1100;
+
+select * from location where location_area = 1;
+
+select * from measurement where measurement_location = 11;
